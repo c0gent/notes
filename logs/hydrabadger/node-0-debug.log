@@ -1,0 +1,1010 @@
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Epoch 202 output [07e9e314-3c7c-41d6-8cfe-7d964826e258, 5589f118-b127-46ac-9df9-0fe5d6f7aad1, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6]
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Proposing 300000..7abc3c
+2018-07-24T10:12:45 [DEBUG] - Data shards: 4, parity shards: 4
+2018-07-24T10:12:45 [DEBUG] - value_len 524, shard_len 131
+2018-07-24T10:12:45 [DEBUG] - Shards before encoding: [000002..69cf11, 205ab1..f43c6d, 7a3bea..192a70, 73d2f1..7abc3c, 000000..000000, 000000..000000, 000000..000000, 000000..000000]
+2018-07-24T10:12:45 [DEBUG] - Shards: [000002..69cf11, 205ab1..f43c6d, 7a3bea..192a70, 73d2f1..7abc3c, 127971..4cf76a, c4ae15..ef47b6, 3db3b0..9f1d96, c2d77c..c2c87a]
+2018-07-24T10:12:45 [INFO] - NEW STEP OUTPUT:
+2018-07-24T10:12:45 [INFO] -     BATCH:
+Batch { epoch: 1773, contributions: {07e9e314-3c7c-41d6-8cfe-7d964826e258: [], 5589f118-b127-46ac-9df9-0fe5d6f7aad1: [[Transaction([211, 153, 196, 233, 163, 125, 85, 67]), Transaction([123, 222, 220, 203, 111, 225, 244, 205]), Transaction([41, 24, 142, 207, 65, 153, 43, 69]), Transaction([219, 33, 184, 16, 104, 13, 18, 191]), Transaction([108, 192, 49, 231, 210, 125, 62, 181]), Transaction([14, 33, 202, 246, 160, 36, 90, 121]), Transaction([189, 65, 26, 79, 10, 13, 105, 137]), Transaction([255, 22, 1, 70, 127, 157, 221, 229]), Transaction([150, 193, 126, 79, 8, 179, 179, 124]), Transaction([19, 41, 55, 108, 125, 8, 251, 230]), Transaction([115, 120, 195, 193, 34, 155, 20, 200]), Transaction([241, 22, 201, 96, 128, 148, 57, 227]), Transaction([210, 251, 189, 226, 146, 14, 47, 27]), Transaction([134, 186, 99, 237, 79, 111, 224, 174]), Transaction([158, 74, 54, 148, 63, 108, 57, 60]), Transaction([53, 67, 65, 101, 106, 160, 113, 219]), Transaction([146, 170, 54, 232, 100, 40, 163, 150]), Transaction([36, 225, 27, 229, 21, 72, 114, 192]), Transaction([238, 163, 246, 55, 38, 190, 61, 122]), Transaction([45, 247, 168, 69, 112, 114, 232, 60])]], ad4c0b1f-5c77-4212-9bc4-ebd158704df5: [], b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: [], bc530a16-d236-4287-b207-a5dba43889dd: [[Transaction([210, 11, 53, 15, 224, 145, 131, 117]), Transaction([211, 185, 106, 176, 118, 252, 151, 212]), Transaction([122, 119, 61, 200, 140, 84, 92, 139]), Transaction([72, 73, 70, 131, 2, 93, 168, 215]), Transaction([95, 163, 213, 26, 147, 207, 71, 218]), Transaction([213, 81, 147, 153, 148, 201, 162, 18]), Transaction([189, 227, 100, 207, 51, 250, 236, 153]), Transaction([37, 207, 11, 217, 57, 138, 107, 252]), Transaction([18, 53, 250, 105, 27, 99, 61, 30]), Transaction([131, 29, 251, 162, 233, 83, 175, 103]), Transaction([73, 235, 94, 191, 23, 88, 114, 175]), Transaction([153, 148, 233, 245, 72, 211, 169, 112]), Transaction([255, 110, 169, 246, 239, 213, 8, 76]), Transaction([197, 28, 124, 38, 97, 83, 130, 108]), Transaction([203, 138, 20, 236, 32, 244, 224, 211]), Transaction([151, 10, 163, 116, 243, 235, 9, 30]), Transaction([222, 225, 115, 182, 175, 84, 129, 117]), Transaction([39, 140, 115, 165, 98, 46, 142, 219]), Transaction([29, 19, 178, 54, 242, 91, 232, 99]), Transaction([41, 123, 163, 30, 179, 210, 143, 128])]], cc247cf1-061c-4212-ac47-14b3270ea3f6: [[Transaction([175, 50, 104, 71, 168, 56, 94, 179]), Transaction([92, 12, 110, 238, 125, 98, 212, 218]), Transaction([10, 149, 32, 134, 171, 125, 20, 223]), Transaction([44, 172, 215, 178, 78, 134, 103, 50]), Transaction([96, 209, 129, 154, 116, 119, 94, 157]), Transaction([130, 239, 127, 41, 180, 17, 1, 63]), Transaction([120, 184, 207, 24, 123, 253, 76, 20]), Transaction([59, 61, 203, 131, 61, 227, 197, 152]), Transaction([106, 250, 132, 8, 117, 122, 217, 1]), Transaction([68, 247, 74, 136, 155, 119, 42, 9]), Transaction([150, 1, 171, 46, 191, 80, 203, 60]), Transaction([192, 233, 131, 159, 133, 68, 116, 148]), Transaction([209, 170, 255, 38, 99, 215, 36, 150]), Transaction([166, 103, 237, 226, 74, 81, 240, 30]), Transaction([29, 125, 202, 107, 60, 38, 76, 1]), Transaction([78, 152, 37, 220, 110, 101, 21, 177]), Transaction([61, 25, 247, 1, 184, 162, 126, 255]), Transaction([203, 115, 254, 130, 114, 61, 194, 207]), Transaction([118, 11, 132, 238, 68, 183, 161, 238]), Transaction([147, 226, 25, 91, 29, 195, 46, 185])]]}, change: None, pub_netinfo: None }
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 5 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..69cf11, 01205a..f43c6d, 027a3b..192a70, 0373d2..7abc3c, 041279..4cf76a, 05c4ae..ef47b6, 063db3..9f1d96, 07c2d7..c2c87a]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..7abc3c
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..220c02, 01742a..456d98, 02fe5d..06ed38, 034b27..6211dd, 0416aa..d93478, 05de7d..b43cfd, 06ae4d..e5499d, 07a7ca..8bdc67]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..6211dd
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..640378, 01619e..000000, 020000..251cf6, 039b03..162bb3, 04fbef..a0ee9f, 05bc18..2b5569, 067873..634ce4, 07c519..bfc32f]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..162bb3
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..1b6b6a, 01f247..000000, 020000..a3132d, 039c0a..937778, 04c88f..52d5b9, 05437b..b39c51, 069fdd..afd51b, 077a64..6593cc]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..937778
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..cf4ea7, 01e9ec..000000, 020000..0e1949, 038e0d..f93c17, 04a426..02a440, 0502b6..5d8dcb, 06bb7d..1e8c35, 077a0c..79ce47]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..f93c17
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..d054fe, 0174ad..000000, 020000..33dfdb, 03c311..7a8a17, 04dec4..55c74c, 053fc6..f4951e, 060f4d..0a44e4, 0759f3..321784]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..7a8a17
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/b396a4b4-2b9e-4a7c-9340-08c5dd874f9d (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance b396a4b4-2b9e-4a7c-9340-08c5dd874f9d started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/ad4c0b1f-5c77-4212-9bc4-ebd158704df5 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance ad4c0b1f-5c77-4212-9bc4-ebd158704df5 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/cc247cf1-061c-4212-ac47-14b3270ea3f6 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance cc247cf1-061c-4212-ac47-14b3270ea3f6 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/07e9e314-3c7c-41d6-8cfe-7d964826e258 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 07e9e314-3c7c-41d6-8cfe-7d964826e258 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/9eb77fcb-95c8-4862-8886-527481802487 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 9eb77fcb-95c8-4862-8886-527481802487 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 9eb77fcb-95c8-4862-8886-527481802487: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/bc530a16-d236-4287-b207-a5dba43889dd (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance bc530a16-d236-4287-b207-a5dba43889dd started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 9eb77fcb-95c8-4862-8886-527481802487: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..095ce8, 011d52..000000, 020000..dc57ec, 038809..fe18a3, 042302..a3dde7, 056797..50ebfa, 06ffe0..334eb2, 072e2e..eb6b08]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..fe18a3
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 6 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 5589f118-b127-46ac-9df9-0fe5d6f7aad1 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 7e275b36-f360-4ebc-bb3c-793b011eeb88 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..aaf8bc, 01c9da..000000, 020000..465934, 03eb0f..9e4967, 04943c..672bef, 059122..fc990b, 0699da..3c994c, 07be11..d5c347]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..9e4967
+2018-07-24T10:12:45 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 5 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/5589f118-b127-46ac-9df9-0fe5d6f7aad1 (is_validator: true) decision: false
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 5589f118-b127-46ac-9df9-0fe5d6f7aad1 started epoch 2
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: false, 9eb77fcb-95c8-4862-8886-527481802487: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/7e275b36-f360-4ebc-bb3c-793b011eeb88 (is_validator: true) decision: false
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 7e275b36-f360-4ebc-bb3c-793b011eeb88 started epoch 2
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: false, 7e275b36-f360-4ebc-bb3c-793b011eeb88: false, 9eb77fcb-95c8-4862-8886-527481802487: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d All Agreement instances have terminated
+2018-07-24T10:12:45 [DEBUG] - Agreement instances that delivered 1: {07e9e314-3c7c-41d6-8cfe-7d964826e258, 9eb77fcb-95c8-4862-8886-527481802487, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instances completed:
+2018-07-24T10:12:45 [DEBUG] -     07e9e314-3c7c-41d6-8cfe-7d964826e258 → 300000..937778
+2018-07-24T10:12:45 [DEBUG] -     9eb77fcb-95c8-4862-8886-527481802487 → 300000..f93c17
+2018-07-24T10:12:45 [DEBUG] -     ad4c0b1f-5c77-4212-9bc4-ebd158704df5 → 300000..6211dd
+2018-07-24T10:12:45 [DEBUG] -     b396a4b4-2b9e-4a7c-9340-08c5dd874f9d → 300000..7abc3c
+2018-07-24T10:12:45 [DEBUG] -     bc530a16-d236-4287-b207-a5dba43889dd → 300000..7a8a17
+2018-07-24T10:12:45 [DEBUG] -     cc247cf1-061c-4212-ac47-14b3270ea3f6 → 300000..162bb3
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Epoch 203 output [07e9e314-3c7c-41d6-8cfe-7d964826e258, 9eb77fcb-95c8-4862-8886-527481802487, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6]
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Proposing 300000..3d7f82
+2018-07-24T10:12:45 [DEBUG] - Data shards: 4, parity shards: 4
+2018-07-24T10:12:45 [DEBUG] - value_len 196, shard_len 49
+2018-07-24T10:12:45 [DEBUG] - Shards before encoding: [000000..250d31, a9f896..000000, 0000b2..66e588, 2b1203..3d7f82, 000000..000000, 000000..000000, 000000..000000, 000000..000000]
+2018-07-24T10:12:45 [DEBUG] - Shards: [000000..250d31, a9f896..000000, 0000b2..66e588, 2b1203..3d7f82, db1a99..d1cc6e, 59a4dd..ed94c5, bf190e..45e812, bf4d6d..072782]
+2018-07-24T10:12:45 [INFO] - NEW STEP OUTPUT:
+2018-07-24T10:12:45 [INFO] -     BATCH:
+Batch { epoch: 1774, contributions: {07e9e314-3c7c-41d6-8cfe-7d964826e258: [], 9eb77fcb-95c8-4862-8886-527481802487: [], ad4c0b1f-5c77-4212-9bc4-ebd158704df5: [[Transaction([134, 204, 77, 144, 204, 213, 49, 105]), Transaction([118, 26, 142, 184, 8, 163, 5, 188]), Transaction([55, 95, 204, 150, 146, 128, 0, 250]), Transaction([137, 34, 220, 45, 70, 70, 19, 252]), Transaction([151, 76, 113, 234, 1, 217, 56, 67]), Transaction([166, 110, 95, 101, 205, 110, 180, 214]), Transaction([249, 104, 69, 101, 85, 207, 113, 168]), Transaction([251, 192, 155, 201, 212, 150, 141, 90]), Transaction([141, 69, 54, 74, 95, 168, 223, 250]), Transaction([94, 105, 245, 162, 148, 129, 60, 22]), Transaction([84, 176, 176, 184, 224, 111, 193, 107]), Transaction([214, 24, 171, 245, 115, 123, 116, 87]), Transaction([47, 81, 164, 231, 49, 75, 139, 228]), Transaction([141, 30, 222, 76, 65, 36, 66, 111]), Transaction([216, 185, 175, 130, 139, 37, 148, 94]), Transaction([210, 60, 250, 251, 200, 207, 45, 156]), Transaction([69, 127, 14, 132, 121, 85, 149, 129]), Transaction([142, 208, 104, 136, 86, 162, 190, 254]), Transaction([160, 83, 214, 201, 152, 64, 83, 76]), Transaction([239, 157, 87, 10, 139, 19, 137, 224])]], b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: [[Transaction([207, 49, 193, 106, 154, 81, 47, 158]), Transaction([239, 152, 134, 55, 91, 6, 204, 74]), Transaction([241, 111, 135, 121, 11, 202, 70, 167]), Transaction([220, 252, 144, 176, 157, 105, 255, 26]), Transaction([177, 77, 40, 238, 184, 15, 3, 57]), Transaction([116, 132, 168, 102, 194, 93, 1, 175]), Transaction([102, 170, 8, 142, 205, 26, 78, 233]), Transaction([163, 3, 99, 46, 20, 9, 98, 88]), Transaction([61, 36, 251, 231, 212, 88, 249, 124]), Transaction([115, 181, 177, 114, 144, 114, 155, 198]), Transaction([72, 13, 13, 138, 94, 204, 12, 222]), Transaction([51, 72, 34, 122, 161, 238, 10, 121]), Transaction([188, 203, 242, 87, 95, 56, 112, 251]), Transaction([72, 94, 184, 119, 107, 158, 74, 90]), Transaction([114, 166, 198, 44, 107, 192, 231, 179]), Transaction([117, 120, 148, 221, 147, 62, 107, 17]), Transaction([151, 192, 212, 225, 207, 134, 229, 53]), Transaction([91, 225, 251, 9, 230, 87, 37, 194]), Transaction([170, 129, 37, 212, 67, 143, 184, 253]), Transaction([137, 66, 82, 147, 12, 103, 161, 191])]], bc530a16-d236-4287-b207-a5dba43889dd: [], cc247cf1-061c-4212-ac47-14b3270ea3f6: []}, change: None, pub_netinfo: None }
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 5 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 5 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..45dd7a, 01eb4f..000000, 020000..effb09, 034d0a..595e58, 041b6f..ec819c, 0503a3..b9511c, 06427d..8d40aa, 07fcf4..2be801]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..595e58
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..f37fed, 01e00c..000000, 020000..8e57fa, 036a05..591345, 0409d4..c12bb8, 05f2ee..eacea4, 062d9c..81c605, 075caf..8e184b]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..591345
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..9857ce, 016a4e..000000, 020000..5477bd, 03ca13..317324, 041f9a..061d9f, 059207..aabdbe, 067648..719f6e, 075b88..206c18]
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..317324
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..eec96e, 012ed0..000000, 020000..a29c81, 03e211..4f28f9, 042661..444644, 059a0d..a09c5e, 060827..10dc1b, 07788a..f77b17]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..4f28f9
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..9cd684, 0128ab..000000, 020000..23513c, 033001..e59224, 04a0d1..110418, 05d8a1..4cacf3, 0660e8..442b34, 070032..439643]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..e59224
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..301bfd, 01c291..000000, 020000..d9961f, 037b13..a6b43b, 04df06..449962, 05acbc..cb1473, 067e62..efc106, 07b45a..2f75ce]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..a6b43b
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/ad4c0b1f-5c77-4212-9bc4-ebd158704df5 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/bc530a16-d236-4287-b207-a5dba43889dd (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/7e275b36-f360-4ebc-bb3c-793b011eeb88 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {7e275b36-f360-4ebc-bb3c-793b011eeb88: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/07e9e314-3c7c-41d6-8cfe-7d964826e258 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 07e9e314-3c7c-41d6-8cfe-7d964826e258 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/5589f118-b127-46ac-9df9-0fe5d6f7aad1 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 5589f118-b127-46ac-9df9-0fe5d6f7aad1 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/cc247cf1-061c-4212-ac47-14b3270ea3f6 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance cc247cf1-061c-4212-ac47-14b3270ea3f6 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..cbc7a9, 01d800..000000, 020000..c9cb6e, 034015..d3263d, 04a119..23abf4, 050e67..34907b, 0615b1..e7eab0, 0722da..21fbc5]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..d3263d
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..250d31, 01a9f8..000000, 020000..66e588, 032b12..3d7f82, 04db1a..d1cc6e, 0559a4..ed94c5, 06bf19..45e812, 07bf4d..072782]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..3d7f82
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance b396a4b4-2b9e-4a7c-9340-08c5dd874f9d started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 9eb77fcb-95c8-4862-8886-527481802487 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/b396a4b4-2b9e-4a7c-9340-08c5dd874f9d (is_validator: true) decision: false
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance b396a4b4-2b9e-4a7c-9340-08c5dd874f9d started epoch 2
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: false, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/9eb77fcb-95c8-4862-8886-527481802487 (is_validator: true) decision: false
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 9eb77fcb-95c8-4862-8886-527481802487 started epoch 2
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, 9eb77fcb-95c8-4862-8886-527481802487: false, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: false, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d All Agreement instances have terminated
+2018-07-24T10:12:45 [DEBUG] - Agreement instances that delivered 1: {07e9e314-3c7c-41d6-8cfe-7d964826e258, 5589f118-b127-46ac-9df9-0fe5d6f7aad1, 7e275b36-f360-4ebc-bb3c-793b011eeb88, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instances completed:
+2018-07-24T10:12:45 [DEBUG] -     07e9e314-3c7c-41d6-8cfe-7d964826e258 → 300000..4f28f9
+2018-07-24T10:12:45 [DEBUG] -     5589f118-b127-46ac-9df9-0fe5d6f7aad1 → 300000..e59224
+2018-07-24T10:12:45 [DEBUG] -     7e275b36-f360-4ebc-bb3c-793b011eeb88 → 300000..317324
+2018-07-24T10:12:45 [DEBUG] -     ad4c0b1f-5c77-4212-9bc4-ebd158704df5 → 300000..595e58
+2018-07-24T10:12:45 [DEBUG] -     bc530a16-d236-4287-b207-a5dba43889dd → 300000..591345
+2018-07-24T10:12:45 [DEBUG] -     cc247cf1-061c-4212-ac47-14b3270ea3f6 → 300000..a6b43b
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Epoch 204 output [07e9e314-3c7c-41d6-8cfe-7d964826e258, 5589f118-b127-46ac-9df9-0fe5d6f7aad1, 7e275b36-f360-4ebc-bb3c-793b011eeb88, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6]
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Proposing 300000..a5c900
+2018-07-24T10:12:45 [DEBUG] - Data shards: 4, parity shards: 4
+2018-07-24T10:12:45 [DEBUG] - value_len 196, shard_len 49
+2018-07-24T10:12:45 [DEBUG] - Shards before encoding: [000000..618d3a, 746ed5..000000, 000087..f6bd93, 231246..a5c900, 000000..000000, 000000..000000, 000000..000000, 000000..000000]
+2018-07-24T10:12:45 [DEBUG] - Shards: [000000..618d3a, 746ed5..000000, 000087..f6bd93, 231246..a5c900, df29de..d4d9fa, 445273..197811, 5deef9..ce7272, 91e940..312a30]
+2018-07-24T10:12:45 [INFO] - NEW STEP OUTPUT:
+2018-07-24T10:12:45 [INFO] -     BATCH:
+Batch { epoch: 1775, contributions: {07e9e314-3c7c-41d6-8cfe-7d964826e258: [], 5589f118-b127-46ac-9df9-0fe5d6f7aad1: [], 7e275b36-f360-4ebc-bb3c-793b011eeb88: [], ad4c0b1f-5c77-4212-9bc4-ebd158704df5: [], bc530a16-d236-4287-b207-a5dba43889dd: [], cc247cf1-061c-4212-ac47-14b3270ea3f6: []}, change: None, pub_netinfo: None }
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..043646, 01ecbc..000000, 020000..f9899c, 039b04..dd52e2, 04d11c..aadbed, 051217..6eb93b, 064eb5..4a5fea, 07fa06..aed004]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..dd52e2
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..60b04c, 018158..000000, 020000..e237ad, 03a115..b1db1c, 04c677..b7a8d2, 05879c..7dcdaa, 06db25..b0f588, 07ba83..49cc0d]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..b1db1c
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..60e30f, 0140bf..000000, 020000..73c9c0, 030611..aad1f8, 042b21..ac9464, 05e25d..7d57d9, 062138..1e350e, 07aeea..760d84]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..aad1f8
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..9ce1d6, 01afdb..000000, 020000..aeef77, 03ca05..a55a1d, 0486a8..47fa0c, 056a8d..8efe75, 068916..b96e24, 0700ed..e73ee1]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..a55a1d
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..be1b2f, 019695..000000, 020000..294811, 034c06..eb210f, 04aa6f..0c923d, 05dab7..a7b8b4, 063483..5c7696, 079ec8..8b2e2e]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..eb210f
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/bc530a16-d236-4287-b207-a5dba43889dd (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance bc530a16-d236-4287-b207-a5dba43889dd started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/5589f118-b127-46ac-9df9-0fe5d6f7aad1 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 5589f118-b127-46ac-9df9-0fe5d6f7aad1 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/cc247cf1-061c-4212-ac47-14b3270ea3f6 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance cc247cf1-061c-4212-ac47-14b3270ea3f6 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/ad4c0b1f-5c77-4212-9bc4-ebd158704df5 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance ad4c0b1f-5c77-4212-9bc4-ebd158704df5 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/07e9e314-3c7c-41d6-8cfe-7d964826e258 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 07e9e314-3c7c-41d6-8cfe-7d964826e258 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..51277a, 0140ab..000000, 020000..9d77ab, 03c90e..f1a6b2, 045c1d..72dbbe, 050d4f..adf293, 06605c..4b6850, 07b8ab..a9b71e]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..f1a6b2
+2018-07-24T10:12:45 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..618d3a, 01746e..000000, 020000..f6bd93, 032312..a5c900, 04df29..d4d9fa, 054452..197811, 065dee..ce7272, 0791e9..312a30]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..a5c900
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/7e275b36-f360-4ebc-bb3c-793b011eeb88 (is_validator: true) decision: true
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 7e275b36-f360-4ebc-bb3c-793b011eeb88 started epoch 1
+2018-07-24T10:12:45 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - Reconstructed shards: [000000..c53c4b, 01153f..000000, 020000..5850fb, 03d304..3b7a7d, 046b9e..da91f1, 05d03b..ecd92e, 06155b..1e4d67, 0768c5..8e1375]
+2018-07-24T10:12:45 [DEBUG] - Glued data shards 300000..3b7a7d
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:45 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/b396a4b4-2b9e-4a7c-9340-08c5dd874f9d (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 9eb77fcb-95c8-4862-8886-527481802487 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 9eb77fcb-95c8-4862-8886-527481802487 started epoch 2
+2018-07-24T10:12:46 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d received 1 shares, had_input = true
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d received 2 shares, had_input = true
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d received 3 shares, had_input = true
+2018-07-24T10:12:46 [DEBUG] - Signature: 065ccd..dd56be, output: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d output true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/9eb77fcb-95c8-4862-8886-527481802487 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 9eb77fcb-95c8-4862-8886-527481802487 started epoch 3
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, 9eb77fcb-95c8-4862-8886-527481802487: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d All Agreement instances have terminated
+2018-07-24T10:12:46 [DEBUG] - Agreement instances that delivered 1: {07e9e314-3c7c-41d6-8cfe-7d964826e258, 5589f118-b127-46ac-9df9-0fe5d6f7aad1, 7e275b36-f360-4ebc-bb3c-793b011eeb88, 9eb77fcb-95c8-4862-8886-527481802487, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instances completed:
+2018-07-24T10:12:46 [DEBUG] -     07e9e314-3c7c-41d6-8cfe-7d964826e258 → 300000..eb210f
+2018-07-24T10:12:46 [DEBUG] -     5589f118-b127-46ac-9df9-0fe5d6f7aad1 → 300000..b1db1c
+2018-07-24T10:12:46 [DEBUG] -     7e275b36-f360-4ebc-bb3c-793b011eeb88 → 300000..f1a6b2
+2018-07-24T10:12:46 [DEBUG] -     9eb77fcb-95c8-4862-8886-527481802487 → 300000..3b7a7d
+2018-07-24T10:12:46 [DEBUG] -     ad4c0b1f-5c77-4212-9bc4-ebd158704df5 → 300000..a55a1d
+2018-07-24T10:12:46 [DEBUG] -     b396a4b4-2b9e-4a7c-9340-08c5dd874f9d → 300000..a5c900
+2018-07-24T10:12:46 [DEBUG] -     bc530a16-d236-4287-b207-a5dba43889dd → 300000..dd52e2
+2018-07-24T10:12:46 [DEBUG] -     cc247cf1-061c-4212-ac47-14b3270ea3f6 → 300000..aad1f8
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Epoch 205 output [07e9e314-3c7c-41d6-8cfe-7d964826e258, 5589f118-b127-46ac-9df9-0fe5d6f7aad1, 7e275b36-f360-4ebc-bb3c-793b011eeb88, 9eb77fcb-95c8-4862-8886-527481802487, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6]
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Proposing 300000..3c5409
+2018-07-24T10:12:46 [DEBUG] - Data shards: 4, parity shards: 4
+2018-07-24T10:12:46 [DEBUG] - value_len 196, shard_len 49
+2018-07-24T10:12:46 [DEBUG] - Shards before encoding: [000000..1ec215, 612451..000000, 000094..ebf731, a30414..3c5409, 000000..000000, 000000..000000, 000000..000000, 000000..000000]
+2018-07-24T10:12:46 [DEBUG] - Shards: [000000..1ec215, 612451..000000, 000094..ebf731, a30414..3c5409, bc871f..e5e53b, 6b6392..777cc0, e29a4d..16ff6a, f75e11..4d07bc]
+2018-07-24T10:12:46 [INFO] - NEW STEP OUTPUT:
+2018-07-24T10:12:46 [INFO] -     BATCH:
+Batch { epoch: 1776, contributions: {07e9e314-3c7c-41d6-8cfe-7d964826e258: [], 5589f118-b127-46ac-9df9-0fe5d6f7aad1: [], 7e275b36-f360-4ebc-bb3c-793b011eeb88: [], 9eb77fcb-95c8-4862-8886-527481802487: [], ad4c0b1f-5c77-4212-9bc4-ebd158704df5: [], b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: [], bc530a16-d236-4287-b207-a5dba43889dd: [], cc247cf1-061c-4212-ac47-14b3270ea3f6: []}, change: None, pub_netinfo: None }
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..99c601, 01b97a..000000, 020000..7474d1, 03240a..085bac, 04ca79..3486ad, 051a3e..c90cb9, 0656de..a22fba, 071be9..ba4cd2]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..085bac
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..76f0cb, 01be68..000000, 020000..15d4f5, 03640c..2118eb, 04f7e4..f7ecfb, 05afc9..1094f4, 0669e3..be3523, 07ebaa..1b71f9]
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..2118eb
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..ce4698, 01d176..1420fa, 02da02..db1f60, 030ad3..7c4212, 04349f..44e1d8, 05e31c..8d1dda, 06e6cc..9e7da0, 0730e8..2abab2]
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..7c4212
+2018-07-24T10:12:46 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..b8822a, 01d64a..000000, 020000..b309fd, 039906..b76b2d, 045bf3..eefa7b, 05320c..f90277, 0619a9..6c222f, 073f1a..c73ad9]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..b76b2d
+2018-07-24T10:12:46 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 5 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..1ec215, 016124..000000, 020000..ebf731, 03a304..3c5409, 04bc87..e5e53b, 056b63..777cc0, 06e29a..16ff6a, 07f75e..4d07bc]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..3c5409
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..abb067, 01d5cf..000000, 020000..3c41de, 037604..6bda42, 04b211..636309, 058a5e..fa294e, 06c307..47d73b, 075883..22b687]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..6bda42
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/bc530a16-d236-4287-b207-a5dba43889dd (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance bc530a16-d236-4287-b207-a5dba43889dd started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/5589f118-b127-46ac-9df9-0fe5d6f7aad1 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 5589f118-b127-46ac-9df9-0fe5d6f7aad1 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/07e9e314-3c7c-41d6-8cfe-7d964826e258 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 07e9e314-3c7c-41d6-8cfe-7d964826e258 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/9eb77fcb-95c8-4862-8886-527481802487 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 9eb77fcb-95c8-4862-8886-527481802487 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 9eb77fcb-95c8-4862-8886-527481802487: true, bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:46 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..65d8da, 016ab0..000000, 020000..ab4b62, 03f016..6540a1, 0470f9..00c11a, 0561ba..b8c996, 06d4a0..ff846a, 075f45..ec5fff]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..6540a1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/b396a4b4-2b9e-4a7c-9340-08c5dd874f9d (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance b396a4b4-2b9e-4a7c-9340-08c5dd874f9d started epoch 1
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 9eb77fcb-95c8-4862-8886-527481802487: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true}
+2018-07-24T10:12:46 [DEBUG] - loop process - 5 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/cc247cf1-061c-4212-ac47-14b3270ea3f6 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance cc247cf1-061c-4212-ac47-14b3270ea3f6 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 9eb77fcb-95c8-4862-8886-527481802487: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/ad4c0b1f-5c77-4212-9bc4-ebd158704df5 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance ad4c0b1f-5c77-4212-9bc4-ebd158704df5 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 9eb77fcb-95c8-4862-8886-527481802487: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 7e275b36-f360-4ebc-bb3c-793b011eeb88 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - loop process - 5 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..198949, 01c5dc..c62dda, 023a49..78a944, 03a99b..6cb6b7, 04b6dd..d3a958, 059a25..8cb096, 0606e4..a43872, 077c12..309adc]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..6cb6b7
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/7e275b36-f360-4ebc-bb3c-793b011eeb88 (is_validator: true) decision: false
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 7e275b36-f360-4ebc-bb3c-793b011eeb88 started epoch 2
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: true, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: false, 9eb77fcb-95c8-4862-8886-527481802487: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d All Agreement instances have terminated
+2018-07-24T10:12:46 [DEBUG] - Agreement instances that delivered 1: {07e9e314-3c7c-41d6-8cfe-7d964826e258, 5589f118-b127-46ac-9df9-0fe5d6f7aad1, 9eb77fcb-95c8-4862-8886-527481802487, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instances completed:
+2018-07-24T10:12:46 [DEBUG] -     07e9e314-3c7c-41d6-8cfe-7d964826e258 → 300000..7c4212
+2018-07-24T10:12:46 [DEBUG] -     5589f118-b127-46ac-9df9-0fe5d6f7aad1 → 300000..2118eb
+2018-07-24T10:12:46 [DEBUG] -     9eb77fcb-95c8-4862-8886-527481802487 → 300000..b76b2d
+2018-07-24T10:12:46 [DEBUG] -     ad4c0b1f-5c77-4212-9bc4-ebd158704df5 → 300000..6540a1
+2018-07-24T10:12:46 [DEBUG] -     b396a4b4-2b9e-4a7c-9340-08c5dd874f9d → 300000..3c5409
+2018-07-24T10:12:46 [DEBUG] -     bc530a16-d236-4287-b207-a5dba43889dd → 300000..085bac
+2018-07-24T10:12:46 [DEBUG] -     cc247cf1-061c-4212-ac47-14b3270ea3f6 → 300000..6bda42
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Epoch 206 output [07e9e314-3c7c-41d6-8cfe-7d964826e258, 5589f118-b127-46ac-9df9-0fe5d6f7aad1, 9eb77fcb-95c8-4862-8886-527481802487, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6]
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Proposing 300000..b8e9f3
+2018-07-24T10:12:46 [DEBUG] - Data shards: 4, parity shards: 4
+2018-07-24T10:12:46 [DEBUG] - value_len 196, shard_len 49
+2018-07-24T10:12:46 [DEBUG] - Shards before encoding: [000000..4a108b, 34a6e2..000000, 000098..6734ac, e10ae3..b8e9f3, 000000..000000, 000000..000000, 000000..000000, 000000..000000]
+2018-07-24T10:12:46 [DEBUG] - Shards: [000000..4a108b, 34a6e2..000000, 000098..6734ac, e10ae3..b8e9f3, 1fc10f..0517c3, efa89c..16938a, f9c82b..f4150a, dc0d21..725c97]
+2018-07-24T10:12:46 [INFO] - NEW STEP OUTPUT:
+2018-07-24T10:12:46 [INFO] -     BATCH:
+Batch { epoch: 1777, contributions: {07e9e314-3c7c-41d6-8cfe-7d964826e258: [[Transaction([138, 59, 203, 137, 116, 71, 144, 193]), Transaction([27, 139, 188, 219, 225, 144, 34, 16]), Transaction([172, 117, 58, 194, 200, 80, 215, 213]), Transaction([80, 193, 109, 233, 123, 180, 143, 61]), Transaction([240, 105, 99, 62, 191, 239, 92, 156]), Transaction([32, 51, 167, 20, 219, 104, 161, 152]), Transaction([109, 91, 230, 55, 162, 224, 84, 212]), Transaction([214, 91, 14, 161, 60, 172, 40, 95]), Transaction([55, 205, 100, 140, 134, 36, 170, 13]), Transaction([64, 92, 33, 212, 239, 202, 245, 233]), Transaction([244, 20, 214, 236, 106, 195, 227, 123]), Transaction([160, 13, 163, 249, 201, 109, 4, 123]), Transaction([105, 31, 32, 54, 27, 28, 132, 151]), Transaction([249, 91, 123, 247, 92, 28, 178, 195]), Transaction([75, 180, 60, 156, 94, 175, 152, 242]), Transaction([41, 181, 163, 179, 27, 6, 16, 66]), Transaction([48, 137, 70, 32, 132, 65, 114, 202]), Transaction([198, 81, 117, 246, 12, 255, 191, 111]), Transaction([158, 252, 133, 186, 213, 196, 56, 189]), Transaction([24, 56, 90, 184, 236, 220, 189, 171])]], 5589f118-b127-46ac-9df9-0fe5d6f7aad1: [], 9eb77fcb-95c8-4862-8886-527481802487: [], ad4c0b1f-5c77-4212-9bc4-ebd158704df5: [], b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: [], bc530a16-d236-4287-b207-a5dba43889dd: [], cc247cf1-061c-4212-ac47-14b3270ea3f6: []}, change: None, pub_netinfo: None }
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..d51db4, 018a75..000000, 020000..af0d9b, 03d419..c39efc, 04c8ac..b39f45, 059bac..d78121, 0602eb..688bbc, 070f87..b51b0b]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..c39efc
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..3e09aa, 01125a..000000, 020000..68ace2, 034313..b54d02, 04b037..0719df, 0559c6..495ad4, 060245..1aaffd, 07bafd..b704bc]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..b54d02
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..d648f9, 01884d..000000, 020000..459022, 033b07..0a60e5, 043db3..5e4dbd, 05385f..f9b2c0, 06ccd9..713c8b, 077a7f..4f7bc8]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..0a60e5
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..5327a9, 010d03..d4940e, 02f123..faba95, 03d8c8..ee102f, 049e73..7d56c9, 054b3a..b7b320, 065243..38031d, 07a3e2..61ffe9]
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..ee102f
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..074c25, 01954b..000000, 020000..05a8b7, 03ef16..6bc906, 04dab2..542a84, 054e2a..3888fe, 062d60..39bbc2, 07c3a5..3c342c]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..6bc906
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..4a108b, 0134a6..000000, 020000..6734ac, 03e10a..b8e9f3, 041fc1..0517c3, 05efa8..16938a, 06f9c8..f4150a, 07dc0d..725c97]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..b8e9f3
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/cc247cf1-061c-4212-ac47-14b3270ea3f6 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance cc247cf1-061c-4212-ac47-14b3270ea3f6 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/5589f118-b127-46ac-9df9-0fe5d6f7aad1 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 5589f118-b127-46ac-9df9-0fe5d6f7aad1 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/7e275b36-f360-4ebc-bb3c-793b011eeb88 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 7e275b36-f360-4ebc-bb3c-793b011eeb88 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/b396a4b4-2b9e-4a7c-9340-08c5dd874f9d (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance b396a4b4-2b9e-4a7c-9340-08c5dd874f9d started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/bc530a16-d236-4287-b207-a5dba43889dd (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance bc530a16-d236-4287-b207-a5dba43889dd started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/ad4c0b1f-5c77-4212-9bc4-ebd158704df5 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance ad4c0b1f-5c77-4212-9bc4-ebd158704df5 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..973792, 01f64d..000000, 020000..1ac986, 03900c..4db235, 04482f..e935a0, 05f7f9..c4b7f4, 065f1d..2a91a1, 07868a..c75fd4]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..4db235
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 07e9e314-3c7c-41d6-8cfe-7d964826e258 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/9eb77fcb-95c8-4862-8886-527481802487 (is_validator: true) decision: true
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 9eb77fcb-95c8-4862-8886-527481802487 started epoch 1
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, 9eb77fcb-95c8-4862-8886-527481802487: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - loop process - 6 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 3 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d/07e9e314-3c7c-41d6-8cfe-7d964826e258 (is_validator: true) decision: false
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instance 07e9e314-3c7c-41d6-8cfe-7d964826e258 started epoch 2
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Updated Agreement results: {07e9e314-3c7c-41d6-8cfe-7d964826e258: false, 5589f118-b127-46ac-9df9-0fe5d6f7aad1: true, 7e275b36-f360-4ebc-bb3c-793b011eeb88: true, 9eb77fcb-95c8-4862-8886-527481802487: true, ad4c0b1f-5c77-4212-9bc4-ebd158704df5: true, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: true, bc530a16-d236-4287-b207-a5dba43889dd: true, cc247cf1-061c-4212-ac47-14b3270ea3f6: true}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d All Agreement instances have terminated
+2018-07-24T10:12:46 [DEBUG] - Agreement instances that delivered 1: {5589f118-b127-46ac-9df9-0fe5d6f7aad1, 7e275b36-f360-4ebc-bb3c-793b011eeb88, 9eb77fcb-95c8-4862-8886-527481802487, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6}
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Agreement instances completed:
+2018-07-24T10:12:46 [DEBUG] -     5589f118-b127-46ac-9df9-0fe5d6f7aad1 → 300000..b54d02
+2018-07-24T10:12:46 [DEBUG] -     7e275b36-f360-4ebc-bb3c-793b011eeb88 → 300000..ee102f
+2018-07-24T10:12:46 [DEBUG] -     9eb77fcb-95c8-4862-8886-527481802487 → 300000..4db235
+2018-07-24T10:12:46 [DEBUG] -     ad4c0b1f-5c77-4212-9bc4-ebd158704df5 → 300000..6bc906
+2018-07-24T10:12:46 [DEBUG] -     b396a4b4-2b9e-4a7c-9340-08c5dd874f9d → 300000..b8e9f3
+2018-07-24T10:12:46 [DEBUG] -     bc530a16-d236-4287-b207-a5dba43889dd → 300000..0a60e5
+2018-07-24T10:12:46 [DEBUG] -     cc247cf1-061c-4212-ac47-14b3270ea3f6 → 300000..c39efc
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - Reconstructed shards: [000000..b820ee, 019775..000000, 020000..317bec, 035809..0c3387, 04bbf1..968957, 05b491..17c480, 068d36..43b509, 074d2a..47905b]
+2018-07-24T10:12:46 [DEBUG] - Glued data shards 300000..0c3387
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Epoch 207 output [5589f118-b127-46ac-9df9-0fe5d6f7aad1, 7e275b36-f360-4ebc-bb3c-793b011eeb88, 9eb77fcb-95c8-4862-8886-527481802487, ad4c0b1f-5c77-4212-9bc4-ebd158704df5, b396a4b4-2b9e-4a7c-9340-08c5dd874f9d, bc530a16-d236-4287-b207-a5dba43889dd, cc247cf1-061c-4212-ac47-14b3270ea3f6]
+2018-07-24T10:12:46 [DEBUG] - b396a4b4-2b9e-4a7c-9340-08c5dd874f9d Proposing 300000..b1a34a
+2018-07-24T10:12:46 [DEBUG] - Data shards: 4, parity shards: 4
+2018-07-24T10:12:46 [DEBUG] - value_len 196, shard_len 49
+2018-07-24T10:12:46 [DEBUG] - Shards before encoding: [000000..02834b, 50f568..000000, 000091..cfd92b, dd0cd8..b1a34a, 000000..000000, 000000..000000, 000000..000000, 000000..000000]
+2018-07-24T10:12:46 [DEBUG] - Shards: [000000..02834b, 50f568..000000, 000091..cfd92b, dd0cd8..b1a34a, 8c1388..f8c646, d5ca26..ef69f1, 90880c..f2076b, 44a883..9951f6]
+2018-07-24T10:12:46 [INFO] - NEW STEP OUTPUT:
+2018-07-24T10:12:46 [INFO] -     BATCH:
+Batch { epoch: 1778, contributions: {5589f118-b127-46ac-9df9-0fe5d6f7aad1: [], 7e275b36-f360-4ebc-bb3c-793b011eeb88: [[Transaction([195, 173, 243, 190, 234, 103, 1, 188]), Transaction([140, 192, 119, 222, 248, 21, 180, 174]), Transaction([101, 28, 71, 17, 23, 203, 214, 78]), Transaction([221, 167, 62, 14, 146, 53, 71, 209]), Transaction([156, 103, 20, 185, 213, 14, 139, 208]), Transaction([12, 41, 129, 204, 247, 180, 196, 33]), Transaction([155, 242, 49, 206, 33, 164, 243, 161]), Transaction([70, 145, 190, 168, 138, 251, 168, 35]), Transaction([43, 138, 86, 185, 243, 166, 19, 103]), Transaction([62, 66, 121, 133, 141, 29, 187, 176]), Transaction([119, 58, 252, 246, 14, 153, 245, 4]), Transaction([238, 13, 166, 77, 159, 93, 82, 1]), Transaction([58, 166, 220, 97, 71, 81, 156, 245]), Transaction([185, 196, 85, 220, 255, 199, 99, 238]), Transaction([38, 211, 238, 110, 204, 64, 69, 186]), Transaction([165, 108, 97, 192, 192, 248, 90, 139]), Transaction([169, 87, 245, 150, 118, 40, 6, 236]), Transaction([128, 229, 188, 158, 194, 128, 187, 244]), Transaction([161, 12, 83, 71, 63, 216, 42, 206]), Transaction([128, 134, 50, 14, 142, 96, 163, 189])]], 9eb77fcb-95c8-4862-8886-527481802487: [], ad4c0b1f-5c77-4212-9bc4-ebd158704df5: [], b396a4b4-2b9e-4a7c-9340-08c5dd874f9d: [], bc530a16-d236-4287-b207-a5dba43889dd: [], cc247cf1-061c-4212-ac47-14b3270ea3f6: []}, change: None, pub_netinfo: None }
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 2 events, 0.000s
+2018-07-24T10:12:46 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:12:47 [INFO] - State: Validator(7)
+2018-07-24T10:12:47 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:12:47 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:12:49 [INFO] - State: Validator(7)
+2018-07-24T10:12:49 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:12:49 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:12:51 [INFO] - State: Validator(7)
+2018-07-24T10:12:51 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:12:51 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:12:53 [INFO] - State: Validator(7)
+2018-07-24T10:12:53 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:12:53 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:12:55 [INFO] - State: Validator(7)
+2018-07-24T10:12:55 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:12:55 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:12:57 [INFO] - State: Validator(7)
+2018-07-24T10:12:57 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:12:57 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:12:59 [INFO] - State: Validator(7)
+2018-07-24T10:12:59 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:12:59 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:01 [INFO] - State: Validator(7)
+2018-07-24T10:13:01 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:01 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:03 [INFO] - State: Validator(7)
+2018-07-24T10:13:03 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:03 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:05 [INFO] - State: Validator(7)
+2018-07-24T10:13:05 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:05 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:07 [INFO] - State: Validator(7)
+2018-07-24T10:13:07 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:07 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:09 [INFO] - State: Validator(7)
+2018-07-24T10:13:09 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:09 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:11 [INFO] - State: Validator(7)
+2018-07-24T10:13:11 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:11 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:13 [INFO] - State: Validator(7)
+2018-07-24T10:13:13 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:13 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:15 [INFO] - State: Validator(7)
+2018-07-24T10:13:15 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:15 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:17 [INFO] - State: Validator(7)
+2018-07-24T10:13:17 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:17 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:19 [INFO] - State: Validator(7)
+2018-07-24T10:13:19 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:19 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:21 [INFO] - State: Validator(7)
+2018-07-24T10:13:21 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:21 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:23 [INFO] - State: Validator(7)
+2018-07-24T10:13:23 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:23 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:25 [INFO] - State: Validator(7)
+2018-07-24T10:13:25 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:25 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:27 [INFO] - State: Validator(7)
+2018-07-24T10:13:27 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:27 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:29 [INFO] - State: Validator(7)
+2018-07-24T10:13:29 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3007", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:29 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:30 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:30 [INFO] - Peer (OutAddr(127.0.0.1:3007): '9eb77fcb-95c8-4862-8886-527481802487') disconnected.
+2018-07-24T10:13:30 [DEBUG] - Removing peer (OutAddr(127.0.0.1:3007): '9eb77fcb-95c8-4862-8886-527481802487') from the list of peers.
+2018-07-24T10:13:30 [DEBUG] - Sending peer (OutAddr(127.0.0.1:3007): '9eb77fcb-95c8-4862-8886-527481802487') disconnect internal message.
+2018-07-24T10:13:30 [INFO] - Peer disconnected: (OutAddr(127.0.0.1:3007): '9eb77fcb-95c8-4862-8886-527481802487').
+2018-07-24T10:13:30 [DEBUG] - Ignoring peer disconnection when `State::Validator`.
+2018-07-24T10:13:30 [DEBUG] - dropping I/O source: 5
+2018-07-24T10:13:30 [INFO] - State has been set from 'Validator' to 'Validator'.
+2018-07-24T10:13:30 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:30 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:30 [DEBUG] - loop process - 4 events, 0.000s
+2018-07-24T10:13:31 [INFO] - State: Validator(6)
+2018-07-24T10:13:31 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3006", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:31 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:32 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:32 [INFO] - Peer (OutAddr(127.0.0.1:3006): 'bc530a16-d236-4287-b207-a5dba43889dd') disconnected.
+2018-07-24T10:13:32 [DEBUG] - Removing peer (OutAddr(127.0.0.1:3006): 'bc530a16-d236-4287-b207-a5dba43889dd') from the list of peers.
+2018-07-24T10:13:32 [DEBUG] - Sending peer (OutAddr(127.0.0.1:3006): 'bc530a16-d236-4287-b207-a5dba43889dd') disconnect internal message.
+2018-07-24T10:13:32 [INFO] - Peer disconnected: (OutAddr(127.0.0.1:3006): 'bc530a16-d236-4287-b207-a5dba43889dd').
+2018-07-24T10:13:32 [DEBUG] - Ignoring peer disconnection when `State::Validator`.
+2018-07-24T10:13:32 [INFO] - State has been set from 'Validator' to 'Validator'.
+2018-07-24T10:13:32 [DEBUG] - dropping I/O source: 6
+2018-07-24T10:13:32 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:32 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:32 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:32 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:32 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:32 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:33 [INFO] - State: Validator(5)
+2018-07-24T10:13:33 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3001", "127.0.0.1:3005"]
+2018-07-24T10:13:33 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:34 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:34 [INFO] - Peer (OutAddr(127.0.0.1:3005): '07e9e314-3c7c-41d6-8cfe-7d964826e258') disconnected.
+2018-07-24T10:13:34 [DEBUG] - Removing peer (OutAddr(127.0.0.1:3005): '07e9e314-3c7c-41d6-8cfe-7d964826e258') from the list of peers.
+2018-07-24T10:13:34 [DEBUG] - Sending peer (OutAddr(127.0.0.1:3005): '07e9e314-3c7c-41d6-8cfe-7d964826e258') disconnect internal message.
+2018-07-24T10:13:34 [INFO] - Peer disconnected: (OutAddr(127.0.0.1:3005): '07e9e314-3c7c-41d6-8cfe-7d964826e258').
+2018-07-24T10:13:34 [DEBUG] - Ignoring peer disconnection when `State::Validator`.
+2018-07-24T10:13:34 [INFO] - State has been set from 'Validator' to 'Validator'.
+2018-07-24T10:13:34 [DEBUG] - dropping I/O source: 7
+2018-07-24T10:13:34 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:34 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:34 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:34 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:35 [INFO] - State: Validator(4)
+2018-07-24T10:13:35 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3002", "127.0.0.1:3004", "127.0.0.1:3001"]
+2018-07-24T10:13:35 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:35 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:35 [INFO] - Peer (OutAddr(127.0.0.1:3004): 'ad4c0b1f-5c77-4212-9bc4-ebd158704df5') disconnected.
+2018-07-24T10:13:35 [DEBUG] - Removing peer (OutAddr(127.0.0.1:3004): 'ad4c0b1f-5c77-4212-9bc4-ebd158704df5') from the list of peers.
+2018-07-24T10:13:35 [DEBUG] - Sending peer (OutAddr(127.0.0.1:3004): 'ad4c0b1f-5c77-4212-9bc4-ebd158704df5') disconnect internal message.
+2018-07-24T10:13:35 [INFO] - Peer disconnected: (OutAddr(127.0.0.1:3004): 'ad4c0b1f-5c77-4212-9bc4-ebd158704df5').
+2018-07-24T10:13:35 [DEBUG] - Ignoring peer disconnection when `State::Validator`.
+2018-07-24T10:13:35 [DEBUG] - dropping I/O source: 3
+2018-07-24T10:13:35 [INFO] - State has been set from 'Validator' to 'Validator'.
+2018-07-24T10:13:35 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:35 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:35 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:37 [INFO] - State: Validator(3)
+2018-07-24T10:13:37 [INFO] -     Peers: ["127.0.0.1:3003", "127.0.0.1:3002", "127.0.0.1:3001"]
+2018-07-24T10:13:37 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:37 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:37 [INFO] - Peer (OutAddr(127.0.0.1:3003): '7e275b36-f360-4ebc-bb3c-793b011eeb88') disconnected.
+2018-07-24T10:13:37 [DEBUG] - Removing peer (OutAddr(127.0.0.1:3003): '7e275b36-f360-4ebc-bb3c-793b011eeb88') from the list of peers.
+2018-07-24T10:13:37 [DEBUG] - Sending peer (OutAddr(127.0.0.1:3003): '7e275b36-f360-4ebc-bb3c-793b011eeb88') disconnect internal message.
+2018-07-24T10:13:37 [INFO] - Peer disconnected: (OutAddr(127.0.0.1:3003): '7e275b36-f360-4ebc-bb3c-793b011eeb88').
+2018-07-24T10:13:37 [DEBUG] - Ignoring peer disconnection when `State::Validator`.
+2018-07-24T10:13:37 [INFO] - State has been set from 'Validator' to 'Validator'.
+2018-07-24T10:13:37 [DEBUG] - dropping I/O source: 4
+2018-07-24T10:13:37 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:37 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:38 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:38 [INFO] - Peer (OutAddr(127.0.0.1:3002): 'cc247cf1-061c-4212-ac47-14b3270ea3f6') disconnected.
+2018-07-24T10:13:38 [DEBUG] - Removing peer (OutAddr(127.0.0.1:3002): 'cc247cf1-061c-4212-ac47-14b3270ea3f6') from the list of peers.
+2018-07-24T10:13:38 [DEBUG] - Sending peer (OutAddr(127.0.0.1:3002): 'cc247cf1-061c-4212-ac47-14b3270ea3f6') disconnect internal message.
+2018-07-24T10:13:38 [INFO] - Peer disconnected: (OutAddr(127.0.0.1:3002): 'cc247cf1-061c-4212-ac47-14b3270ea3f6').
+2018-07-24T10:13:38 [DEBUG] - Ignoring peer disconnection when `State::Validator`.
+2018-07-24T10:13:38 [INFO] - State has been set from 'Validator' to 'Validator'.
+2018-07-24T10:13:38 [DEBUG] - dropping I/O source: 1
+2018-07-24T10:13:38 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:39 [INFO] - State: Validator(1)
+2018-07-24T10:13:39 [INFO] -     Peers: ["127.0.0.1:3001"]
+2018-07-24T10:13:39 [INFO] - Generating and inputting 20 random transactions...
+2018-07-24T10:13:39 [DEBUG] - loop process - 1 events, 0.000s
+2018-07-24T10:13:39 [INFO] - Peer (OutAddr(127.0.0.1:3001): '5589f118-b127-46ac-9df9-0fe5d6f7aad1') disconnected.
+2018-07-24T10:13:39 [DEBUG] - Removing peer (OutAddr(127.0.0.1:3001): '5589f118-b127-46ac-9df9-0fe5d6f7aad1') from the list of peers.
+2018-07-24T10:13:39 [DEBUG] - Sending peer (OutAddr(127.0.0.1:3001): '5589f118-b127-46ac-9df9-0fe5d6f7aad1') disconnect internal message.
+2018-07-24T10:13:39 [INFO] - Peer disconnected: (OutAddr(127.0.0.1:3001): '5589f118-b127-46ac-9df9-0fe5d6f7aad1').
+2018-07-24T10:13:39 [DEBUG] - Ignoring peer disconnection when `State::Validator`.
+2018-07-24T10:13:39 [INFO] - State has been set from 'Validator' to 'Validator'.
+2018-07-24T10:13:39 [DEBUG] - dropping I/O source: 2
